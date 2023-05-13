@@ -16,6 +16,8 @@ const twitterClient = new TwitterApi(config.twitter.api.token, { plugins: [ rate
 if (!fs.existsSync(`./data/${config.username}`))
     fs.mkdirSync(`./data/${config.username}`, { recursive: true });
 
+console.log(`Archiving ${config.username}`);
+
 const path = require('path');
 const dataPath = `./data/${config.username}/`;
 
