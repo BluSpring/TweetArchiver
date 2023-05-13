@@ -1,0 +1,18 @@
+{
+    "twitter": {
+        "api": {
+            "key": "twitter api key",
+            "secret": "twitter api secret",
+            "token": "twitter api token"
+        },
+        "oauth2": {
+            "id": "twitter oauth2 id",
+            "secret": "twitter oauth2 secret"
+        },
+        "scopes": [
+            "tweet.read",
+            "users.read"
+        ]
+    },
+    "username": "twitter username to archive"
+}

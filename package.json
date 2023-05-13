@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@twitter-api-v2/plugin-rate-limit": "^1.1.0",
+    "twitter-api-v2": "^1.12.0"
+  }
+}
